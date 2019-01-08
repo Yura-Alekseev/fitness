@@ -122,4 +122,16 @@ header {
     width: 57%;
     margin: 40px 93px 0 0;
 }
+.photo {
+    width: 63%;
+    border: 1px solid #c8c8c8;
+    margin-left: 50px;
+}
+
+.text {
+    display: block;
+    float: right;
+    width: 57%;
+    margin: 40px 93px 0 0;
+}
 
