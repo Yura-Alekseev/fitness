@@ -15,11 +15,11 @@
     box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
     background-color: #ffffff;
 }
-
-header
-{
+/*HEADER*/
+header {
     background-color: #ffffff;
     padding-top: 50px;
+    margin-bottom: 40px;
 }
 
 .logo {
@@ -41,12 +41,13 @@ header
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e5e5e', endColorstr='#434242', GradientType=0 );
 }
 
-li {
+
+.menu li {
     display: block;
     float: left;
 }
 
-li:hover {
+.menu li:hover {
     border-left: 1px solid #838383;
     border-right: 1px solid #838383;
     background: rgba(74,74,74,1);
@@ -74,5 +75,35 @@ li:hover {
 
 .contacts {
     padding: 14px 463px 14px 45px;
+}
+
+/*CONTAINER*/
+.container{
+    margin-top: 140px;
+    background-color: #ffffff;
+}
+
+.container ul {
+    width: 240px;
+}
+
+.left-menu li {
+    display: block;
+    background-color: #ffffff;
+    padding: 14px 0 14px 24px;
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.left-menu {
+    border: 1px solid #c8c8c8;
+}
+
+.left-menu li:last-child{
+    border-bottom: 0px;
+}
+
+.left-menu li:hover{
+    background-color: #f9f9f9;
+    
 }
 
