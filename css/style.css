@@ -27,6 +27,7 @@ header
 }
 
 .menu {
+    text-shadow: 1px 1px 1px #000000;
     color: white;
     background: rgba(94,94,94,1);
     background: -moz-linear-gradient(top, rgba(94,94,94,1) 0%, rgba(94,94,94,1) 50%, rgba(67,66,66,1) 100%);
