@@ -78,19 +78,22 @@ li {
 
 .main {
     padding: 14px 62px 14px 24px;
+    border: 1px solid transparent;
 }
 
 .products {
     padding: 14px 22px 14px 22px;
+    border: 1px solid transparent;
 }
 
 .info {
     padding: 14px 43px 14px 63px;
+    border: 1px solid transparent;
 }
 
 .contacts {
     padding: 14px 44px 14px 44px;
-
+    border: 1px solid transparent;
 }
 
 /*CONTAINER*/
@@ -105,7 +108,7 @@ li {
 }
 
 .container ul {
-    width: 25%;
+    width: 24%;
     float: left
 }
 
@@ -132,16 +135,17 @@ li {
     transition: 0.3s;
 }
 .photo {
-    width: 64.5%;
+    width: 65%;
     border: 1px solid #c8c8c8;
-    margin-left: 50px;
+    margin-left: 5.5%;
+    box-sizing: padding-box;
 }
 
 .text {
     display: block;
     float: right;
-    width: 57%;
-    margin: 40px 93px 0 0;
+    width: 60%;
+    margin: 40px 7.5% 0 0;
 }
 
 
