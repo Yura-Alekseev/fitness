@@ -42,6 +42,15 @@ li {
     zoom: 1;
 }
 
+a {
+    background-color: transparent;
+}
+
+.menu a {
+color: white;
+text-decoration: none;
+}
+
 .menu {
     margin: 0 auto;
     margin-right: 5%;
@@ -57,7 +66,6 @@ li {
     background: linear-gradient(to bottom, rgba(94,94,94,1) 0%, rgba(94,94,94,1) 50%, rgba(67,66,66,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e5e5e', endColorstr='#434242', GradientType=0 );
 }
-
 
 .menu li {
     background: inherit;
@@ -75,12 +83,15 @@ li {
     background: -ms-linear-gradient(top, rgba(74,74,74,1) 0%, rgba(46,46,46,1) 100%);
     background: linear-gradient(to bottom, rgba(74,74,74,1) 0%, rgba(46,46,46,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a4a4a', endColorstr='#2e2e2e', GradientType=0 );
-
 }
 
 .main {
     padding: 14px 62px 14px 24px;
     border: 1px solid transparent;
+}
+
+.main:hover {
+
 }
 
 .products {
@@ -100,7 +111,6 @@ li {
 
 /*CONTAINER*/
 .container{
-
     background-color: #ffffff;
     float: left;
 }
@@ -111,6 +121,12 @@ li {
     float: left;
     margin-right: 5.5%;
 }
+
+.left-menu a {
+    color: black;
+    text-decoration: none;
+}
+
 .left-menu li {
     display: block;
     background-color: #ffffff;
@@ -122,11 +138,11 @@ li {
     border: 1px solid #c8c8c8;
 }
 
-.left-menu li:last-child{
+.left-menu li:last-child {
     border-bottom: 0;
 }
 
-.left-menu li:hover{
+.left-menu li:hover {
     cursor: pointer;
     background-color: #f9f9f9;
     padding-left: 35px;
@@ -146,10 +162,10 @@ li {
     display: block;
     width: 60%;
     margin: 40px 7.5% 5% 0;
+    background-color: #ffffff;
 }
 
 footer {
-
     display: block;
     background-color: #ffffff;
 }
@@ -161,6 +177,7 @@ footer {
     color: black;
     background-color: #e1e1e1;
 }
+
 .footer li {
     background-color: inherit;
     display: inline-block;
