@@ -8,7 +8,7 @@
     display: block;
     width: 77%;
     padding: 0 0 940px 90px;
-    margin: 0 195px 10px 110px;
+    margin: 0 195px 0 110px;
     font-size: 15px;
     -webkit-box-shadow: 0 5px 5px 0 rgba(0,0,0,0.3);
     -moz-box-shadow: 0 5px 5px 0 rgba(0,0,0,0.3);
@@ -19,7 +19,6 @@
 header {
     background-color: #ffffff;
     padding-top: 50px;
-    margin-bottom: 40px;
 }
 
 .logo {
@@ -29,8 +28,11 @@ header {
 }
 
 .menu {
-    text-shadow: 1px 1px 1px #000000;
+    margin: 0 auto;
+    margin-right: 5%;
+    width: 95%;
     color: white;
+    text-shadow: 1px 1px 1px #000000;
     background: rgba(94,94,94,1);
     background: -moz-linear-gradient(top, rgba(94,94,94,1) 0%, rgba(94,94,94,1) 50%, rgba(67,66,66,1) 100%);
     background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(94,94,94,1)), color-stop(50%, rgba(94,94,94,1)), color-stop(100%, rgba(67,66,66,1)));
@@ -41,13 +43,26 @@ header {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e5e5e', endColorstr='#434242', GradientType=0 );
 }
 
+ul {
+    font-size:0;
+    line-height:0;
+    letter-spacing:-1px;
+}
+li {
+    font-size:15px;
+    line-height:normal;
+    letter-spacing:normal;
+    display: -moz-inline-stack!important;
+    display:inline-block;
+    zoom:1;
+}
 
 .menu li {
-    display: block;
-    float: left;
+    background: inherit;
 }
 
 .menu li:hover {
+    cursor: pointer;
     border-left: 1px solid #838383;
     border-right: 1px solid #838383;
     background: rgba(74,74,74,1);
@@ -80,12 +95,17 @@ header {
 
 /*CONTAINER*/
 .container{
-    margin-top: 140px;
+    margin-top: 40px;
     background-color: #ffffff;
 }
 
+.left-menu a{
+    text-decoration: none;
+    color: black;
+}
+
 .container ul {
-    width: 240px;
+    width: 25%;
     float: left
 }
 
@@ -105,13 +125,14 @@ header {
 }
 
 .left-menu li:hover{
+    cursor: pointer;
     background-color: #f9f9f9;
     padding-left: 35px;
     font-weight: bold;
     transition: 0.3s;
 }
 .photo {
-    width: 63%;
+    width: 64.5%;
     border: 1px solid #c8c8c8;
     margin-left: 50px;
 }
@@ -122,16 +143,5 @@ header {
     width: 57%;
     margin: 40px 93px 0 0;
 }
-.photo {
-    width: 63%;
-    border: 1px solid #c8c8c8;
-    margin-left: 50px;
-}
 
-.text {
-    display: block;
-    float: right;
-    width: 57%;
-    margin: 40px 93px 0 0;
-}
 
