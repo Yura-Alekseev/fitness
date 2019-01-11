@@ -8,7 +8,7 @@
     display: block;
     width: 77%;
     padding: 0 0 5% 7%;
-    margin: 0 10% 0 10%;
+    margin: 0 10%;
     font-size: 15px;
     -webkit-box-shadow: 0 5px 5px 0 rgba(0,0,0,0.3);
     -moz-box-shadow: 0 5px 5px 0 rgba(0,0,0,0.3);
@@ -28,33 +28,24 @@ header {
     margin-bottom: 4%;
 }
 
-ul {
+nav {
     font-size:0;
     line-height:0;
     letter-spacing:-1px;
 }
-li {
+a {
     font-size: 15px;
     line-height: normal;
     letter-spacing: normal;
     display: -moz-inline-stack!important;
     display: inline-block;
     zoom: 1;
-}
-
-a {
     background-color: transparent;
     text-decoration: none;
 }
 
-.menu a {
-color: white;
-
-}
 
 .menu {
-    margin: 0 auto;
-    margin-right: 5%;
     width: 95%;
     color: white;
     text-shadow: 1px 1px 1px #000000;
@@ -68,11 +59,12 @@ color: white;
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e5e5e', endColorstr='#434242', GradientType=0 );
 }
 
-.menu li {
+.menu a {
     background: inherit;
+    color: white;
 }
 
-.menu li:hover {
+.menu a:hover {
     cursor: pointer;
     border-left: 1px solid #838383;
     border-right: 1px solid #838383;
@@ -107,38 +99,35 @@ color: white;
 }
 
 /*CONTAINER*/
-.container{
+.container {
     background-color: #ffffff;
     float: left;
 }
 
-.nav {
+.left-menu {
     width: 24%;
     display: block;
     float: left;
     margin-right: 5.5%;
 }
 
-.nav a {
+.left-menu a {
     color: black;
-}
-
-.nav li {
     display: block;
     background-color: #ffffff;
     padding: 14px 0 14px 24px;
     border-bottom: 1px solid #c8c8c8;
 }
 
-.nav {
+.left-menu {
     border: 1px solid #c8c8c8;
 }
 
-.nav li:last-child {
+.left-menu a:last-child {
     border-bottom: 0;
 }
 
-.nav li:hover {
+.left-menu a:hover {
     cursor: pointer;
     background-color: #f9f9f9;
     padding-left: 35px;
@@ -175,14 +164,10 @@ footer {
 }
 
 .footer a {
-  color: black;
-}
-
-.footer li {
     background-color: inherit;
     display: inline-block;
+    color: black;
 }
-
 
 .footer-main {
     padding: 14px 62px 14px 24px;
