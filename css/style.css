@@ -8,7 +8,7 @@
     display: block;
     width: 77%;
     padding: 0 0 5% 7%;
-    margin: 0 195px 0 110px;
+    margin: 0 10% 0 10%;
     font-size: 15px;
     -webkit-box-shadow: 0 5px 5px 0 rgba(0,0,0,0.3);
     -moz-box-shadow: 0 5px 5px 0 rgba(0,0,0,0.3);
@@ -18,14 +18,14 @@
 /*HEADER*/
 header {
     background-color: #ffffff;
-    padding-top: 50px;
-    margin-bottom: 40px;
+    padding-top: 4%;
+    margin-bottom: 4%;
 }
 
 .logo {
     background-color: #ffffff;
-    font-size: 38px;
-    margin-bottom: 40px;
+    font-size: 42px;
+    margin-bottom: 4%;
 }
 
 ul {
@@ -88,10 +88,6 @@ text-decoration: none;
 .main {
     padding: 14px 62px 14px 24px;
     border: 1px solid transparent;
-}
-
-.main:hover {
-
 }
 
 .products {
