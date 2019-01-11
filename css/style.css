@@ -12,17 +12,17 @@
     -webkit-box-shadow: 0 5px 5px 0 rgba(0,0,0,0.3);
     -moz-box-shadow: 0 5px 5px 0 rgba(0,0,0,0.3);
     box-shadow: 0 5px 5px 0 rgba(0,0,0,0.3);
-    background-color: #ffffff;
+    background: #ffffff;
 }
 /*HEADER*/
 header {
-    background-color: #ffffff;
+    background: #ffffff;
     padding-top: 4%;
     margin-bottom: 4%;
 }
 
 .logo {
-    background-color: #ffffff;
+    background: #ffffff;
     font-size: 42px;
     margin-bottom: 4%;
 }
@@ -36,7 +36,7 @@ a {
     display: -moz-inline-stack!important;
     display: inline-block;
     zoom: 1;
-    background-color: transparent;
+    background: transparent;
     text-decoration: none;
 }
 
@@ -83,7 +83,7 @@ a {
 
 /*CONTAINER*/
 main {
-    background-color: #ffffff;
+    background: #ffffff;
     float: left;
 }
 
@@ -97,7 +97,7 @@ main {
 .sidebar a {
     color: black;
     display: block;
-    background-color: #ffffff;
+    background: #ffffff;
     padding-left: 24px;
     line-height: 40px;
     border-bottom: 1px solid #c8c8c8;
@@ -113,7 +113,7 @@ main {
 
 .sidebar a:hover {
     cursor: pointer;
-    background-color: #f9f9f9;
+    background: #f9f9f9;
     padding-left: 35px;
     font-weight: bold;
     transition: 0.3s;
@@ -134,7 +134,7 @@ main {
 /*FOOTER*/
 footer {
     display: block;
-    background-color: #ffffff;
+    background: #ffffff;
 }
 
 .footer {
@@ -151,6 +151,13 @@ footer {
 .footer a:hover {
     cursor: pointer;
     text-decoration: underline;
+    background: rgba(94,94,94,1);
+    background: -moz-linear-gradient(top, rgba(94,94,94,1) 0%, rgba(68,67,67,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(94,94,94,1) 0%, rgba(68,67,67,1) 100%);
+    background: -o-linear-gradient(top, rgba(94,94,94,1) 0%, rgba(68,67,67,1) 100%);
+    background: -ms-linear-gradient(top, rgba(94,94,94,1) 0%, rgba(68,67,67,1) 100%);
+    background: linear-gradient(to bottom, rgba(94,94,94,1) 0%, rgba(68,67,67,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e5e5e', endColorstr='#444343', GradientType=0 );
 }
 
 .footer-rights {
