@@ -138,9 +138,12 @@ footer {
 }
 
 .footer {
-    width: 95%;
+    display: block;
+    width: 69.5%;
     color: #000000;
     background: #e1e1e1;
+    float: left;
+
 }
 
 .footer a {
@@ -161,9 +164,11 @@ footer {
 }
 
 .footer-rights {
+    display: inline-block;
+    color: #000000;
+    background: #e1e1e1;
     width: 25%;
-    float: right;
-    pointer-events: none;
+    margin-right: 5%;
 }
 
 
